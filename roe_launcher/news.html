@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>News Page</title>
+<title>RoE News</title>
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <style>
+h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 100;
+}
 body {
     background: #ffffff no-repeat;
     color: #000000;
@@ -11,11 +17,27 @@ body {
     margin: 0;
     padding: 20px;
 }
+p.newsTitle {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 150%;
+}
+p.newsDesc {
+    padding: 15px;
+}
 </style>
 </head>
 <body>
 <!-- Note: Java's web renderer is pretty bad so you cannot get too fancy -->
-<h1>News</h1>
-<p>Recently, two new modpacks were added.</p>
+<h1>Realms of Eon</h1>
+<h2>NEWS</h2>
+<p class="newsTitle">05/02/2017 - RoE Launcher Alpha test</p>
+<img src="https://www.dropbox.com/s/r8j8e7evalzckv9/launcher.png?dl=1" alt="Launcher" height="250" width="400">
+<p class="newsDesc">If you see this message then you're currently testing an Alpha build of our RoE launcher.<br>Currently, we're able to launch:</p>
+<ul>
+    <li>Vanilla 1.11.2</li>
+    <li>Modded 1.7.10</li>
+    <li>Pixelmon</li>
+</ul>
 </body>
 </html>
